@@ -1,0 +1,286 @@
+body{
+	background-color: #2F2D42;
+
+}
+img{
+	margin: auto;
+}
+.form-gro label{
+	color: #B5B7BD;
+	font-size: 20px;
+	font-family: serif;
+}
+legend{
+	text-align: center;
+	font-size: 25px;
+	color:#868695;
+	margin-bottom:75px;
+}
+
+.form-check{
+    margin-left: 459px;
+    font-size: 30px;
+    color: #9b59b6;
+}
+.titulli{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+a{
+	text-align: center;
+    margin-left: 501px;
+    color: #fff;
+    background-color: #286090;
+    margin-top: 40px;
+}
+.testii{
+	display: inline-block;
+    padding: 23px 98px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+}
+.form-group p{
+	font-family: serif;
+    font-size: 15px;
+    padding-bottom: 14px;
+    padding-top: 15px;
+    color: #fff;
+    margin-left: 20px;
+}
+.form-group .majtas{
+  margin-left:15px;
+  float:left;
+  width:400px;
+
+}
+
+.col-sm-10 .col-sm-offset-1 .contact_form{
+	color: #73507C;
+}
+.djathats input{
+	display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    border-radius: 0px;
+    padding: 11px;
+    background-color: #707079;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+.djathats input:hover{
+	background-color: #fff;
+}
+form input{
+	color: #fff;
+	font-size: 20px;
+}
+.majtas ul{
+	color: #fff;
+}
+.djathats ul{
+	color: #fff;
+}
+.djathats button{
+	margin-bottom: 5px;
+}
+fieldset{
+	color: #fff;
+	padding-left: 15px;
+}
+fieldset label{
+	padding-left: 57px;
+}
+.bllok{
+	color: #fff;
+}
+.contact_form .form-inline .form-group {
+    margin-bottom: 0;
+    vertical-align: middle;
+    width: 48%;
+    float: left;
+}
+
+.contact_form .form-inline .form-control {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	border-radius: 0px;
+	padding:30px;
+	background-color: #e4e8e8;
+	border: 1px solid transparent;
+	box-shadow: none;
+}
+
+.contact_form .form-inline .form-group input:focus{
+	outline: 0;
+}
+
+.contact_form .form-inline .right_input{
+	float: right;
+}
+
+.contact_form h3{
+	text-align: center;
+	font-size: 59px;
+	color:#9b59b6;
+	margin-bottom:75px;
+}
+
+.textarea-form{
+	width: 44%;
+    float: left;
+    margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.textarea-form textarea{
+	max-width: 945px;
+	max-height: 250px;
+}
+
+textarea.form-control {
+    height: 199px;
+    background-color: #707079;
+
+}
+textarea.form-control:hover{
+	background-color: #fff;
+}
+.majtas h4{
+	color: #286090;
+}
+.djathats h4{
+	color: #286090;
+    border-bottom: 1px solid #286090;
+    padding-bottom: 28px;
+    text-align: center;
+}
+.majtas h4{
+}
+.test{
+	margin-top: 37px;
+	margin-bottom: 10px;
+}
+.test .majtas{
+	margin-left: 15px;
+    float: left;
+    width: 400px;
+}
+.test .djathats{
+	margin-left: 15px;
+    float: right;
+    width: 400px;
+}
+.djathats label{
+	color: #fff;
+}
+
+.form .majtas{
+	margin-left:15px;
+  float:left;
+  width: 400px;
+}
+.form .right{
+  float:right;
+  width: 500px;
+}
+.form  p {
+    font-family: serif;
+    font-size: 15px;
+    color: #fff;
+}
+.form label{
+	color: #2A99CE  ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.right input{
+	display: inline-block;
+    border-radius: 0px;
+    padding: 11px;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+.btn-primary{
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin-left: 400px;
+    padding-left: 60px;
+    padding-right: 59px;
+}
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+/* SMALL DEVICE AND UP (SM - MD - LG)*/
+
+@media (min-width: 768px) {
+
+
+
+}
+
+
+
+/* SMALL DEVICE AND EXTRA SMALL DEVICE (SM - XS)*/
+
+@media (max-width: 991px) {
+
+}
+
+
+
+/* ONLY SMALL DEVICE (SM)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+
+
+/* MEDIUM AND LARGE DEVICE (MD - LG)*/
+
+@media (min-width: 992px) {
+
+
+}
+
+
+/* ONLY MEDIUM DEVICE (MD)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* ONLY LARGE DEVICE (LG)*/
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+/* EXTRA SMALL DEVICE (iPHONE ETC..)(XS) */
+
+@media (max-width: 767px) {
+
+
+
+
+
+}

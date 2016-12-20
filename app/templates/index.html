@@ -1,31 +1,38 @@
-<html>
-<head>
-  <title>ARKEP</title>
-  <script src="jquery-1.6.2.min.js"></script>
-   <script src="jquery.validity.min.js"></script>
-  <script>
-  $(document).ready(function(){
-    $('.field1').on('change', function(){
-      var vlera = $(this).val();
-      if(vlera.length < 6){
-        alert('Keni gabuar.')
-        $(this).focus();
-      }
-      console.log(vleera);
-    });
-  });
-</script>
-</head>
-<body>ut
-  <div id="header">
-    <h2>ARKEP</h2>
-  </div>
-  <div class="container">
-    <form method="POST">
-      <input type="text" name="field1" placeholder="Field 1"/>
-      <input type="text" name="field2" placeholder="Field 2"/>
-      <input type="submit" value="Register"/>
-    </form>
-  </div>
-</body>
-</html>
+{% extends "layout.html"%}
+{% block header %}
+<div class="slider">
+    <img src="inc/img/arkep.jpg" width="700px" hight="300px" class="img-responsive"alt="...">
+</div>
+<div class="titulli">
+  <h3>FORMULAR I NJOFTIMIT PER
+           HYRJE NE AKTIVITETIN E KOMUNIKIMEVE ELEKTONIKE</h3>
+</div>
+
+
+  <form>
+    <fieldset class="form-gro">
+      <legend>QËLLIMI I NJOFTIMIT *</legend>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+          Fillimi i shërbimit
+        </label>
+      </div>
+      <div class="form-check">
+      <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+          Shtim shërbimi
+        </label>
+      </div>
+      <div class="form-check disabled">
+      <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" >
+          Heqje shërbimi
+        </label>
+      </div>
+    </fieldset>
+  <div id="browse_app">
+      <a class="testii" href="test.html">Vazhdo</a>
+    </div>
+  </form>
+{% endblock %}
